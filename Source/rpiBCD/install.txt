@@ -1,0 +1,39 @@
+﻿#########################################################################
+
+	Baby Crying Detector - Rpi
+	
+		made by. Bankruptcy
+
+#########################################################################
+
+Common
+
+Python version 2.7.13 is required.
+
+###
+
+for Linux
+
+1. Download source, and unzip it on home directory.
+
+2. Open terminal, and then command on rpiBCD directory
+
+	python setup.py build
+	python setup.py install
+
+3. Depending on the state of the Python module, several programs may be required.
+   For more information, please refer to Google or mail to developer.
+
+4. If that does not work,
+   open the setup.py file and install the required module yourself.
+
+   However, the scipy module must be installed after installing the numpy module.
+
+5. Install FFmpeg using APT or YUM.
+
+6. Get model.pkl from pcBCD or FTP server
+   And Move it to result/model Dir.
+
+7. Command ./test.sh or ./run_detection_using_ftp.sh on rpiBCD Dir.
+
+###

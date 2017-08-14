@@ -1,0 +1,65 @@
+﻿#########################################################################
+
+	Baby Crying Detector - PC
+	
+		made by. Bankruptcy
+
+#########################################################################
+
+Common
+
+Python version 2.7.13 is required.
+
+###
+
+for Windows
+
+1. Move the file to drive C:\ and unzip it.
+
+2. Open CMD and Install numpy‑1.13.1+mkl‑cp27‑cp27m‑win_amd64.whl
+
+	pip install numpy‑1.13.1+mkl‑cp27‑cp27m‑win_amd64.whl
+
+3. Install scipy-0.19.1-cp27-cp27m-win_amd64.whl
+	
+	pip install scipy-0.19.1-cp27-cp27m-win_amd64.whl
+
+4. In Cmd line, type "python setup.py build" and "python setup.py install" on pcBCD Dir.
+
+5. According to http://www.wikihow.com/Install-FFmpeg-on-Windows, Install FFmpeg.
+
+6. Move to the pc_main Dir. and Command "python train_set.py".
+   This command takes some time according to computer specification
+
+7. Command "python train_model.py"
+   This command takes some time according to computer specification
+
+
+###
+
+for Linux
+
+1. Download "pcBCD.tar", and unzip it on hoem directory.
+
+2. Open terminal, and then command on pcBCD directory
+
+	python setup.py build
+	python setup.py install
+
+3. Depending on the state of the Python module, several programs may be required.
+   For more information, please refer to Google or mail to developer.
+
+4. If that does not work,
+   open the setup.py file and install the required module yourself.
+
+   However, the scipy module must be installed after installing the numpy module.
+
+5. Install FFmpeg using APT or YUM.
+
+6. Move to the pc_main Dir. and Command "python train_set.py".
+   This command takes some time according to computer specification
+
+7. Command "python train_model.py"
+   This command takes some time according to computer specification
+
+###
